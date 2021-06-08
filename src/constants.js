@@ -10,5 +10,6 @@
 
 export const QUESTION_CONTAINER_ID = 'question-container';
 export const QUIZ_CONTAINER_ID = 'quiz-container';
+// export const QUIZ_RADIO_BUTTON='button-radio';
 export const NEXT_QUESTION_BUTTON_ID = 'next-question-button';
 export const PREVIEWS_QUESTION_BUTTON_ID = 'preview-question-button';

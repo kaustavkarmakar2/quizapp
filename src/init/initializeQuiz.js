@@ -44,6 +44,10 @@ const setupQuizHTML = () => {
   const questionContainer = createDOMElement('div', {
     id: QUESTION_CONTAINER_ID,
   });
+  var x = document.getElementById('radioID');
+  x.checked = false;
+
+  quizContainer.appendChild(x);
   quizContainer.appendChild(questionContainer);
   // add a previous button
   const previewsQuestionButton = createPreviewsQuestionButtonElement();

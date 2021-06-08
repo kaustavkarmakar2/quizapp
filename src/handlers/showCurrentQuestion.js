@@ -1,9 +1,11 @@
-'use strict';
+// 'use strict';
 
 import { QUESTION_CONTAINER_ID } from '../constants.js';
 import createQuestionElement from '../views/createQuestionElement.js';
 import clearDOMElement from '../utils/clearDOMElement.js';
 import getDOMElement from '../utils/getDOMElement.js';
+// import createRadioButton from '../views/radiobutton';
+
 import { quizData } from '../data.js';
 
 const showCurrentQuestion = () => {
@@ -12,6 +14,7 @@ const showCurrentQuestion = () => {
   const questionDOM = createQuestionElement(currentQuestion);
 
   const questionContainer = getDOMElement(QUESTION_CONTAINER_ID);
+
   clearDOMElement(questionContainer);
   questionContainer.appendChild(questionDOM);
 };
